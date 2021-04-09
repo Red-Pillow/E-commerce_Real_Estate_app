@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = '2q=5mwksmgd5+%6^5uk@gcyi(67nmc%r0i3tv#enmgwp#f(&ws'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['my-realtor-app.herokuapp.com', '127.0.0.1']
+ALLOWED_HOSTS = []#['my-realtor-app.herokuapp.com', '127.0.0.1:8000']
 
 
 # Application definition
